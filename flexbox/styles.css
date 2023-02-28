@@ -56,11 +56,11 @@
 }
 
 .first-item {
-    order: 1;
+    order: auto;
 }
 
 .last-item {
-    order: -1;
+    order: auto;
 }
 
 .photo-grid-item {
