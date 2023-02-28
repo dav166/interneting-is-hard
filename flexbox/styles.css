@@ -56,16 +56,16 @@
   align-items: center;
 }
 
-.photo-grid-item {
-  border: 1px solid #fff;
-  width: 300px;
-  height: 300px;
-}
-
 .first-item {
     order: 1;
 }
 
 .last-item {
     order: -1;
+}
+
+.photo-grid-item {
+  border: 1px solid #fff;
+  width: 300px;
+  height: 300px;
 }
