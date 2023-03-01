@@ -7,7 +7,7 @@
 .menu-container {
   color: #fff;
   background-color: #5995DA;  
-  padding: 20px 0;
+  padding: .8rem .6rem;
   display: flex;
   justify-content: center;
 }
@@ -16,14 +16,26 @@
   width: 900px;
   display: flex;
   justify-content: space-between;
+  flex-direction: row;
+  row-gap: 2rem;
+}
+
+@media(max-width: 300px) {
+  .menu {
+    flex-direction: column;
+  }
+}
+
+.date {
+  margin: auto;
 }
 
 .signup {
-  margin-left: auto;
+margin: auto;
 }
 
 .login {
-  margin-left: 20px;
+  margin: auto;
 }
 
 .header-container {
