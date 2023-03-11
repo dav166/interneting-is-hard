@@ -15,9 +15,9 @@
 .menu {
   width: 900px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   flex-direction: row;
-  row-gap: 1rem;
+  gap: 12px;
 }
 
 .date {
@@ -25,14 +25,14 @@
 }
 
 .signup {
-  margin-left: auto;
+  /*margin-left: 0;*/
 }
 
 .login {
-  margin-left: 10px;
+  /*margin-right: 0;*/
 }
 
-@media(max-width: 275px) {
+@media(max-width: 225px) {
   .menu {
     flex-direction: column;
   }
@@ -41,7 +41,6 @@
   }
   .login {
     margin: auto;
-    
   }
   .signup {
     margin: auto;
@@ -59,8 +58,10 @@
   width: 900px;
   height: 300px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
+  min-width: 0px;
+  gap: 12px;
 }
 
 .photo-grid-container {
